@@ -5,7 +5,7 @@ on:
     paths:
       - wiki/**
     branches:
-      - master
+      - main
 
 env:
   USER_TOKEN: ${{ secrets.GH_PAT }}
